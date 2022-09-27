@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Designer Layout</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        }
+        else {
+            x.style.display = "block";
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+        
+        <nav class="nav-contaniner">
+
+            <!-- ----mobile-nav----- -->
+
+            <div class="topnav">
+                <a href="#home" class="active"><img src="./images/Logo.svg" alt="logo" /></a>
+                <div id="myLinks">
+                  <a href="#home">HOME</a>
+                  <a href="#project">PROJECT</a>
+                  <a href="#about">ABOUT</a>
+                  <a href="#contact">CONTACT</a>
+                  <a href="#otherpace">OTHER PACE</a>
+                </div>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <img src="./images/icons8-menu.svg" alt="menu">
+                </a>
+              </div>
+
+              <!-- -----desktop-nav-------->
+
+            <div class="navbar">
+                <div class="logo">
+                   <img src="./images/Logo.svg" alt="logo">
+                </div>
+                <div class="navitems">
+                    <ul class="list-items">
+                        <li class="list-item"><a href="">HOME</a></li>
+                        <li class="list-item"><a href="">PROJECT</a></li>
+                        <li class="list-item"><a href="">ABOUT</a></li>
+                        <li class="list-item"><a href="">CONTACT</a></li>
+                        <li class="list-item"><a href="">OTHER PACE</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="hero-container">
+                <div class="left-hero">
+                    <img src="./images/Untitled design (35).png" alt="hero-image">
+                </div>
+                <div class="right-hero">
+                    <h5>Hello I'm Arthur</h5>
+                    <h1>Visual Designer</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis a 
+                        consequatur eaque beatae blanditiis doloribus 
+                        excepturi cumque fuga tenetur.
+                    </p>
+                    <button class="aboutme">ABOUT ME</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- -------card-section--------- -->
+
+        <div class="card-section">
+            <div class="bg"></div>
+            <div class="cards">
+                <div class="card">
+                    <img src="./images/ui-design.svg" alt="ui-logo">
+                    <h2>UI Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos laudantium</p>
+                    <p class="know"><a href="">KNOW MORE &rarr;</a></p>
+                </div>
+                <div class="card">
+                    <img src="./images/product-design.svg" alt="product-logo">
+                    <h2>Product Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos laudantium</p>
+                    <p class="know"><a href="">KNOW MORE &rarr;</a></p>
+                </div>
+                <div class="card">
+                    <img src="./images/branding.svg" alt="branding-logo">
+                    <h2>Branding</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos laudantium</p>
+                    <p class="know"><a href="">KNOW MORE &rarr;</a></p>
+                </div>
+            </div>
+
+            <!-- -----Exprience------ -->
+
+            <div class="exprience">
+                <div class="left-exp">
+                    <h1>12</h1>
+                    <h6>Years Experience</h6>
+                </div>
+                <div class="right-exp">
+                    <div class="exp-card">
+                        <div class="client">
+                            <h2>60+</h2>
+                            <p>Clients</p>
+                        </div>
+                        <div class="exp">
+                            <h2>08</h2>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                    <div class="exp-card">
+                        <div class="project">
+                            <h2>122+</h2>
+                            <p>Completed Projects</p>
+                        </div>
+                        <div class="exp">
+                            <h2>10</h2>
+                            <p>Achievements</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!----------featured-container---------->
+
+            <div class="featured-container">
+                <div class="head">
+                    <div class="content">
+                        <h3>FEATURED PROJECTS</h3>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                    </div>
+                    <div class="head-btn">
+                        <button>VIEW ALL</button>
+                    </div>
+                </div>    
+                <div class="featured-cards">
+                    <div class="featured-card">
+                        <div class="cardone">
+                            <img src="./images/Screenshot 2022-06-25 131915.jpg" alt="">
+                            <div class="cardfoot">
+                                <h4>The Vintage</h4>
+                                <p>KNOW MORE &rarr;</p>
+                            </div>
+                        </div>
+                        <div class="cardtwo">
+                            <img src="./images/Screenshot 2022-06-25 132031.jpg" alt="">
+                            <div class="cardfoot">
+                                <h4>Foodasa</h4>
+                                <p>KNOW MORE &rarr;</p>
+                            </div>
+                        </div>
+                        <div class="cardthree">
+                            <img src="./images/Screenshot 2022-06-25 133016.jpg" alt="">
+                            <div class="cardfoot">
+                                <h4>Marco Accent</h4>
+                                <p>KNOW MORE &rarr;</p>
+                            </div>
+                        </div>
+                        <div class="cardfour">
+                            <img src="./images/Screenshot 2022-06-25 133426.jpg" alt="">
+                            <div class="cardfoot">
+                                <h4>Mozaik</h4>
+                                <p>KNOW MORE &rarr;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------- bottom-section------ -->
+
+            <div class="bottom-section">
+                <div class="bottomleft">
+                    <h1>Let's work together on your next project</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quae 
+                        laboriosam, ut possimus dolorem ducimus. Expedita quis ea atque sint!</p>
+                </div>
+                <div class="bottomright">
+                    <div class="bottom-btn">
+                        <button>CONTACT</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ------footer------- -->
+
+            <div class="footer">
+                <div class="footer-list">
+                    <ul class="footer-list-items">
+                        <li class="footer-list-item"><a href="">HOME</a></li>
+                        <li class="footer-list-item"><a href="">ABOUT</a></li>
+                        <li class="footer-list-item"><a href="">PROJECTS</a></li>
+                        <li class="footer-list-item"><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="foot-nav">
+                    <img class="logo" src="./images/Logo.svg" alt="logo">
+                    <img class="social" src="./images/social-media.svg" alt="social">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+       
